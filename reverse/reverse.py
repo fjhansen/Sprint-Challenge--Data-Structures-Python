@@ -48,3 +48,4 @@ class LinkedList:
             current = next
         self.head = prev
     # will update if time allows, but it is passing
+    # apparently we dont need it to be fully recursive so this should be good!
