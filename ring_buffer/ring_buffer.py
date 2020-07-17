@@ -17,4 +17,25 @@ class RingBuffer:
 # https://www.youtube.com/watch?v=F2MIRFCjfU0
 # vid i used
 
+buffer = RingBuffer(3)
+
+
+
+buffer.append('a')
+buffer.append('b')
+buffer.append('c')
+
+print(buffer.get())
+
+buffer.append('d')
+
+print(buffer.get())
+
+buffer.append('e')
+buffer.append('f')
+
+print(buffer.get())
+
+
+
 
